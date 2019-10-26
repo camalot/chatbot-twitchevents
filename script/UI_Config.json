@@ -1,0 +1,173 @@
+{
+	"output_file": "settings.json",
+	"StreamlabsToken": {
+		"type": "textbox",
+		"label": "Streamlabs Socket Token",
+		"value": "",
+		"tooltip": "The Streamlabs Socket Token. This can be found on the website via the left-hand side menu -> API Settings -> API Tokens.",
+		"group": "GENERAL"
+	},
+	"OpenSLAPISettingsLink": {
+		"type": "button",
+		"label": "Get your Socket Token here",
+		"tooltip": "Click here to go to the Streamlabs API settings page",
+		"function": "OpenSLAPISettingsLink",
+		"wsevent": "",
+		"group": "GENERAL"
+	},
+	"EnableFollow": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Follow Events",
+		"tooltip": "If checked, follow events will trigger the message",
+		"group": "FOLLOW"
+	},
+	"FollowResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Follow Message Response",
+		"tooltip": "$username = Following username",
+		"group": "FOLLOW"
+	},
+	"EnableSubscription": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Subscription Events",
+		"tooltip": "If checked, subscription events will trigger the message",
+		"group": "SUBSCRIPTION"
+	},
+	"SubscriptionResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Subscription Response",
+		"tooltip": "$username = Subscriber username",
+		"group": "SUBSCRIPTION"
+	},
+	"EnableCheer": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Cheer Events",
+		"tooltip": "If checked, cheer events will trigger the message",
+		"group": "CHEER"
+	},
+	"CheerMinimum": {
+		"type": "slider",
+		"value": 1,
+		"label": "Minimum Cheer Amount",
+		"min": 1,
+		"max": 10000,
+		"ticks": 1,
+		"tooltip": "Minimum number of bits to trigger the message",
+		"group": "CHEER"
+	},
+	"CheerResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Cheer Message Response",
+		"tooltip": "$username = Cheerer username",
+		"group": "CHEER"
+	},
+	"EnableDonation": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Donation Events",
+		"tooltip": "If checked, Donation events will trigger the message",
+		"group": "DONATION"
+	},
+	"DonationResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Donation Message Response",
+		"tooltip": "$username = Donator username",
+		"group": "DONATION"
+	},
+	"EnableHost": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Host Events",
+		"tooltip": "If checked, host events will trigger the message",
+		"group": "HOST"
+	},
+	"EnableHostShoutoutHook": {
+		"type": "checkbox",
+		"label": "Enable Shoutout Overlay Hook for Hosts",
+		"tooltip": "If you have the Shoutout Overlay setup, this will trigger that overlay.",
+		"value": false,
+		"wsevent": "EVENT_NONE",
+		"group": "HOST"
+	},
+	"HostResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Host Message Response",
+		"tooltip": "$username = Hosting username",
+		"group": "HOST"
+	},
+	"OpenHostShoutoutOverlayLink": {
+		"type": "button",
+		"label": "Get the Shoutout Overlay Script",
+		"tooltip": "Opens the page to get the Shoutout Overlay script",
+		"function": "OpenShoutoutOverlayLink",
+		"wsevent": "EVENT_NONE",
+		"group": "HOST"
+	},
+	"EnableRaid": {
+		"type": "checkbox",
+		"value": true,
+		"label": "Enable Raid Events",
+		"tooltip": "If checked, raid events will trigger the message",
+		"group": "RAID"
+	},
+	"EnableRaidShoutoutHook": {
+		"type": "checkbox",
+		"label": "Enable Shoutout Overlay Hook for Raids",
+		"tooltip": "If you have the Shoutout Overlay setup, this will trigger that overlay.",
+		"value": false,
+		"wsevent": "EVENT_NONE",
+		"group": "RAID"
+	},
+	"RaidResponse": {
+		"type": "textbox",
+		"value": "",
+		"label": "Raid Message Response",
+		"tooltip": "$username = Hosting username",
+		"group": "RAID"
+	},
+	"OpenRaidShoutoutOverlayLink": {
+		"type": "button",
+		"label": "Get the Shoutout Overlay Script",
+		"tooltip": "Opens the page to get the Shoutout Overlay script",
+		"function": "OpenShoutoutOverlayLink",
+		"wsevent": "EVENT_NONE",
+		"group": "RAID"
+	},
+	
+	"OpenDonateLink": {
+		"type": "button",
+		"label": "Donate",
+		"tooltip": "Donate to support development",
+		"function": "OpenDonateLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenFollowOnTwitchLink": {
+		"type": "button",
+		"label": "Follow Me On Twitch",
+		"tooltip": "Get Medal",
+		"function": "OpenFollowOnTwitchLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenReadMeLink": {
+		"type": "button",
+		"label": "Open ReadMe",
+		"tooltip": "Open ReadMe file",
+		"function": "OpenReadMeLink",
+		"wsevent": "EVENT_NONE"
+	},
+	"OpenScriptUpdater": {
+		"type": "button",
+		"label": "Check For Updates",
+		"tooltip": "Check for updates",
+		"function": "OpenScriptUpdater",
+		"wsevent": "EVENT_NONE"
+	}
+}
