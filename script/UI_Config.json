@@ -141,7 +141,6 @@
 		"wsevent": "EVENT_NONE",
 		"group": "RAID"
 	},
-	
 	"OpenDonateLink": {
 		"type": "button",
 		"label": "Donate",

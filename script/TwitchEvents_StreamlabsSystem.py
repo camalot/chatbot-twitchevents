@@ -147,11 +147,11 @@ def Tick():
     return
 
 def Parse(parseString, userid, username, targetid, targetname, message):
-    resultString = parseString
-    resultString = resultString.replace("$username", username)
-    resultString = resultString.replace("$userid", userid)
-    resultString = resultString.replace("$targetname", targetname)
-    resultString = resultString.replace("$targetid", targetid)
+    resultString = parseString or ""
+    resultString = resultString.replace("$username", username or "")
+    resultString = resultString.replace("$userid", userid or "")
+    resultString = resultString.replace("$targetname", targetname or "")
+    resultString = resultString.replace("$targetid", targetid or "")
     Parent.Log(ScriptName, resultString)
     return resultString
 
