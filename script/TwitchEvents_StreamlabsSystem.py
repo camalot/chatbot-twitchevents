@@ -242,6 +242,9 @@ def OpenGithubDonateLink():
 def OpenTwitchDonateLink():
     os.startfile("http://twitch.tv/darthminos/subscribe")
     return
+def OpenSLAPISettingsLink():
+    os.startfile("https://streamlabs.com/dashboard#/settings/api-settings")
+    return
 
 
 def OpenShoutoutOverlayLink():
