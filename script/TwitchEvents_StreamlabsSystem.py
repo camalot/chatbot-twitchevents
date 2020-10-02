@@ -250,6 +250,9 @@ def OpenSLAPISettingsLink():
 def OpenShoutoutOverlayLink():
     os.startfile("https://github.com/camalot/chatbot-shoutout")
     return
+def OpenDiscordLink():
+    os.startfile("https://discord.com/invite/vzdpjYk")
+    return
 
 def OpenScriptUpdater():
     currentDir = os.path.realpath(os.path.dirname(__file__))
