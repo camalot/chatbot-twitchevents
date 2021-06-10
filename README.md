@@ -1,6 +1,6 @@
-# CHATBOT TWITCH TEAM
+# CHATBOT TWITCH EVENTS
+[![Twitch Events](https://github.com/camalot/chatbot-twitchevents/actions/workflows/build.yml/badge.svg)](https://github.com/camalot/chatbot-twitchevents/actions/workflows/build.yml)
 
-A script that will automatically shoutout a streamer from the specified twitch team.
 
 
 ## REQUIREMENTS
@@ -11,7 +11,7 @@ A script that will automatically shoutout a streamer from the specified twitch t
 
 ## INSTALL
 
-- Download the latest zip file from [Releases](https://github.com/camalot/chatbot-twitchteam/releases/latest)
+- Download the latest zip file from [Releases](https://github.com/camalot/chatbot-twitchevents/releases/latest)
 - Right-click on the downloaded zip file and choose `Properties`
 - Click on `Unblock`  
 [![](https://i.imgur.com/vehSSn7l.png)](https://i.imgur.com/vehSSn7.png)  
